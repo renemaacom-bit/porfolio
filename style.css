@@ -1,0 +1,233 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+
+ body {
+     background: linear-gradient(to right, #000000, #192a56);
+     color: white;
+ }
+
+ .container {
+     width: 90%;
+     margin: auto;
+     padding: 20px;
+ }
+
+ /* --- NAVIGATION BAR --- */
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 0;
+ }
+
+ .logo {
+     font-size: 22px;
+     font-weight: bold;
+ }
+
+ .nav-links a {
+     color: white;
+     text-decoration: none;
+     margin-left: 25px;
+     font-size: 18px;
+ }
+
+ /* --- HERO SECTION --- */
+ .hero {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     min-height: 70vh;
+ }
+
+ .hero-text h3 {
+     font-size: 28px;
+     margin-bottom: 10px;
+     font-weight: normal;
+ }
+
+ .hero-text h1 {
+     font-size: 50px;
+     color: #00f5d4;
+     margin-bottom: 10px;
+ }
+
+ .hero-text h2 {
+     font-size: 26px;
+     margin-bottom: 20px;
+     font-weight: normal;
+ }
+
+ .hero-text h2 span {
+     color: #00f5d4;
+ }
+
+ .hero-text p {
+     font-size: 18px;
+     line-height: 1.5;
+     max-width: 600px;
+ }
+
+ .hero-img img {
+     width: 320px;
+     height: 320px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+
+ /* --- SOCIAL MEDIA BAR — UPDATED --- */
+ .social-bar {
+     background: linear-gradient(90deg, #2A0772, #2A0772);
+     /* eact blue gradient from your screenshot */
+
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     gap: 430px;
+     padding: 10px 22px;
+     margin-top: 20px;
+     border-radius: 5px;
+     width: fit-content;
+ }
+
+ .social-item {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 17px;
+ }
+
+ .social-icon {
+     width: 28px;
+     height: 28px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /* Instagram */
+ .ig-icon {
+     background: linear-gradient(45deg, #f09433, #e62e6b, #bc1888);
+ }
+
+ .ig-icon img {
+     width: 16px;
+     height: 16px;
+     filter: brightness(0) invert(1);
+ }
+
+ /* Facebook */
+ .fb-icon {
+     background-color: #1877f2;
+ }
+
+ .fb-icon img {
+     width: 14px;
+     height: 16px;
+     filter: brightness(0) invert(1);
+ }
+
+ /* WhatsApp */
+ .wa-icon {
+     background-color: #25d366;
+ }
+
+ .wa-icon img {
+     width: 16px;
+     height: 16px;
+     filter: brightness(0) invert(1);
+ }
+
+ /* --- SECTION TITLES --- */
+ .section-title {
+     text-align: center;
+     font-size: 35px;
+     color: #00f5d4;
+     margin: 60px 0 40px;
+ }
+
+ /* --- GRID LAYOUT --- */
+ .grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 25px;
+ }
+
+ /* --- HOBBY CARDS --- */
+ .card {
+     background-color: #2A0772;
+     border-radius: 5px;
+     overflow: hidden;
+ }
+
+ .card img {
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+ }
+
+ .card h3 {
+     text-align: center;
+     padding: 15px;
+     font-size: 22px;
+ }
+
+ .card p {
+     padding: 0 15px 20px;
+     font-size: 16px;
+     line-height: 1.4;
+ }
+
+ /* --- SERVICE CARDS --- */
+ .service-card {
+     background-color: #2A0772;
+     padding: 30px 20px;
+     text-align: center;
+     border-radius: 5px;
+ }
+
+ .service-card .icon {
+     font-size: 40px;
+     color: #00f5d4;
+     margin-bottom: 15px;
+ }
+
+ .service-card h3 {
+     font-size: 22px;
+     margin-bottom: 15px;
+ }
+
+ .service-card p {
+     font-size: 16px;
+     line-height: 1.4;
+ }
+
+ /* --- CONTACT FORM --- */
+ .contact-form {
+     max-width: 700px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+     padding: 15px;
+     background-color: #2A0772;
+     border: none;
+     color: white;
+     font-size: 18px;
+ }
+
+ .contact-form textarea {
+     height: 180px;
+     resize: none;
+ }
